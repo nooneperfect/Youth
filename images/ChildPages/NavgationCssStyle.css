@@ -1,0 +1,61 @@
+﻿body {
+}
+
+#LeftContainer {
+    padding:0px;
+    margin:0 auto;
+    background:url(../Images/ChildPages/nav_background.png) repeat-y;
+    width:270px;
+    height:100%;
+}
+
+#LeftNav ul {
+        padding:0px;
+    margin:0 auto;
+  list-style:none;
+}
+
+#LeftNav ul li{
+ padding:5px;
+}
+
+#LeftNav ul li a img{
+   border:none;
+}
+.ChildPageLeftContainer {
+    padding:0px;
+    margin:0px; 
+    width:270px;
+    float:left; 
+}
+
+.ChildClassMainContentContainer {
+    margin-left:5px;
+    width:726px;
+    float:left; 
+}
+
+.ChildPageContainer {
+    width:1003px;
+    background:url(../images/background.jpg) repeat-y round scroll; height:100%;
+    overflow:hidden;
+}
+
+#HotLineAndWechart {
+    width:270px;
+    height:250px;
+    margin-left:5px;
+}
+
+.content ul{
+    list-style:none;
+    padding:0px;
+    margin:0px;
+}
+
+.content ul li img{
+    padding:0px;
+    margin:0px;
+    vertical-align:top; display:block
+}
+  

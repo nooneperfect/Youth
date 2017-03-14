@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Youth.master.cs" Inherits="Youth.Youth" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>欢迎来到优世足球</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="Styles/layout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script type="text/javascript">
+    function changeImg(btn, name) //鼠标移入，更换图片
+    {
+        btn.src = "Images/"+name+"_hl.png";
+    }
+    function changeback(btn, name)  //鼠标移出，换回原来的图片
+    {
+        btn.src = "Images/" + name + ".png";
+    }
+</script>
+<body>
+    <form id="form1" runat="server" style =" width:1003px;margin:0 auto;">
+        <div id="header" >
+           <img src="images/banner.jpg" style="width:1003px;" />
+        </div>
+        <div id="container">
+            <div class ="navBar">
+                <ul>
+                  <li><a href="index.aspx" onfocus="if(this.blur)this.blur()"><img id="nav_index" src="../Images/nav_index.png"
+onmouseover="changeImg(nav_index, 'nav_index')" onmouseout="changeback(nav_index, 'nav_index')"/></a></li>
+                  <li><a href="AboutYouth.aspx" onfocus="if(this.blur)this.blur()"><img id="nav_AboutYouth" src="../Images/nav_aboutYouth.png"
+onmouseover="changeImg(nav_AboutYouth, 'nav_AboutYouth')" onmouseout="changeback(nav_AboutYouth, 'nav_AboutYouth')"/></a></li>
+                  <li><a href="Resources.aspx" onfocus="if(this.blur)this.blur()"><img id="nav_resources" src="../Images/nav_resources.png"
+onmouseover="changeImg(nav_resources, 'nav_resources')" onmouseout="changeback(nav_resources, 'nav_resources')"/></a></li>
+                   <li><a href="Education.aspx" onfocus="if(this.blur)this.blur()"><img id="nav_Education" src="../Images/nav_Education.png"
+onmouseover="changeImg(nav_Education, 'nav_Education')" onmouseout="changeback(nav_Education, 'nav_Education')"/></a></li>
+                  <li><a href="Courses.aspx" onfocus="if(this.blur)this.blur()"><img id="nav_course" src="../Images/nav_course.png"
+onmouseover="changeImg(nav_course, 'nav_course')" onmouseout="changeback(nav_course, 'nav_course')"/></a></li>
+                </ul>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   
+                </asp:ContentPlaceHolder>
+            </div>
+             <div class ="foot" >
+        <div id="link_line" style="color:white">
+            <ul style="align-content:center;text-align:center;">
+                <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3048728463&site=qq&menu=yes">联系我们</a></li>
+                <li>   |   </li>
+                <li><a href="AboutYouth.aspx">关于优世</a></li>
+                            <li>   |  </li>
+                <li><a href="Education.aspx">快乐+教育</a></li>
+                            <li>  |   </li>
+                <li><a href="Resources.aspx">专业师资</a></li>
+                            <li>  |  </li>
+                <li><a href="Courses.aspx">课程详情</a></li>
+            </ul>
+        </div>
+         <div id="Split_line">
+             <img src="../Images/Split_Line_Foot.jpg" />
+         </div>
+        <div style="align-content:center;text-align:center;">
+                  <span>优世足球培训客服：</span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3048728463&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=1:3048728463:4"" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+        </div>
+         </div>
+       </div>
+    </form>
+    <footer>
+ 
+    </footer>
+</body>
+
+</html>

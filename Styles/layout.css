@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+
+/*Header*/
+#header { padding:0px;}
+
+#container { width:1003px;  
+             background:url(../images/background.jpg) repeat-y;}
+
+.navBar
+{
+    width:1003px;
+	height:36px;
+
+}
+.navBar ul 
+{
+	padding:0px;
+        margin:0px;
+    overflow:hidden;
+        list-style: none;
+}
+.navBar ul li 
+{
+    padding:0px;
+    margin:0px;
+    float:left;
+   	list-style: none;
+}
+
+.navBar ul li img
+{
+    border:none;
+}
+
+.ModuleContainer {
+ margin-top:10px;
+ height:300px;
+ width:980px;
+}
+
+.ArrowModuleContainer {
+ margin-top:10px;
+ height:200px;
+ width:980px;
+}
+
+.ShowPicDiv 
+{
+    float:left;
+    padding-left:5px;
+    width:690px;
+}
+
+.ShowPicDiv img
+{
+    width:165px;
+}
+
+.ArrwoDIVStyle {
+    width:280px;
+    height:200px;
+    float:left;
+}
+
+#Prebook_Course {
+    width:275px;
+    height:300px;
+    list-style: none;
+}
+    #Prebook_Course ul {
+            list-style: none;
+             padding:0px;
+    margin:5px;
+    }
+
+    #Prebook_Course ul li {
+         overflow:hidden;
+    }
+#Pic_Rounder {
+
+    float:left;
+    margin-left:5px;
+     height:300px;
+     width:680px;
+
+}
+.Prebook_Course_Area ul li{
+    margin-top:10px;
+    margin-left:5px;
+    padding:0px;
+    list-style: none;
+    font:normal 12px/22px "宋体";
+}
+ .foot
+{
+        	margin:2px auto; 
+            margin-top:0px;
+            padding:0px;
+        	width:1003px;
+        	height:100px;
+            background:url(/images/foot_Background.jpg) repeat top;
+            font:normal 12px/22px "宋体";
+}
+
+#link_line {
+    margin-left:340px;margin-top:30px
+}
+#link_line ul{
+                list-style: none;
+            margin: 0 auto; 
+            padding:0px;
+}
+    #link_line ul li {
+        float:left;
+    }
+
+.index_Rounder_Line
+{
+   float:left;
+   background:url(/images/Prebook_background.png ) no-repeat;
+}
+
+.index_Item_Display { float:left; padding:5px;
+}
+
+.CooperatePic {
+padding-left:20px;
+}
+
+#Split_line {
+    margin-left:320px;
+}
+
